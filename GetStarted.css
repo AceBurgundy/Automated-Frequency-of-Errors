@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    outline: none;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #1f1f1f;
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#content-container {
+    overflow: hidden;
+    overflow-y:scroll;
+    height: 90vh;
+}
+
+#buttons-container {
+    height: 10vh;
+    border: 2px solid #f55151;
+    display: flex;
+    align-items: center;
+}
+
+#content-table {
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border: 2px solid #f55151;
+    border-bottom: none;
+    font-size: 1.5rem;
+    height: 100%;
+}
+
+#table-name {
+    text-align: center;
+}
+
+#content-table thead tr {
+    background-color: rgb(245, 81, 81);
+    color: #ffffff;
+    text-align: left;
+    position: sticky;
+    top: 0;
+}
+
+#content-table th {
+    font-weight:normal;
+}
+
+#content-table th,
+#content-table td {
+    padding: .5rem .7rem;
+    border-bottom: 1px solid #8a8989;
+    border-right: 1px solid #8a8989;
+}
+
+#content-table th,
+#content-table td {
+    width: 500px;
+}
+
+#content-table tbody tr {
+    border-bottom: 1px solid #8a8989;
+}
+
+.edit-button, .save-button {
+    margin-right: 5px;
+}
+
+.cell-input-edit {
+    border: none;
+    font-size: 1.5rem;
+    background-color: #1f1f1f;
+    color: white;
+    border-bottom: 1px solid gray;
+    font-family: "Poppins", sans-serif;
+}
+
+button {
+    padding: 1rem;
+    font-size: 1.3rem;
+    background-color: #f55151;
+    border: none;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.data-container-input {
+    width: 100%; 
+    font-size: 1.5rem; 
+    background-color: inherit; 
+    border: none; 
+    color: white;
+    border-bottom: 1px solid #f55151;
+}
+
+.data-container-input::-webkit-inner-spin-button,
+.data-container-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.data-container-input {
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
+
+#frequency-input-container {
+    margin-left: 1rem;
+}
+
+#frequency-input {
+    font-size: 1.5rem;
+    width: 100px;
+    border: none;
+    border-bottom:2px solid rgb(245, 81, 81);
+    background-color: inherit;
+    color: white;
+}
