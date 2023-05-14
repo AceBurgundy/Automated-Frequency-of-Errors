@@ -13,9 +13,9 @@ import { handleFrequencySetterClick } from "./Javascript/Functions/FrequencySett
 /**
     Creates a table with the specified number of rows.
 
-    @param {number} numRows - The number of rows to create in the table.
+    @param {number} numRows - The initial number of rows to create in the table.
  */
-createTable(10)
+createTable(30)
 
 /**
     Attaches an event listener to the "Save as CSV" button, which triggers the saveTableAsCSV function when clicked.
