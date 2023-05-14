@@ -25,7 +25,7 @@ Features
 
 ## Known Issues
 
-    The app currently allows saving a CSV file even when there is no data present in the table. This issue will be addressed in a future update.
+    Check the issues tab for more details.
 
 ## Contributing
 
